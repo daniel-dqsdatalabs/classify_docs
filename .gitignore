@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Dados (mantém só a estrutura de pastas)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos e caches locais
+models/
+.cache/
+*.safetensors
+*.bin
+*.onnx
+
+# Ferramentas
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores e SO
+.vscode/
+.idea/
+.DS_Store
